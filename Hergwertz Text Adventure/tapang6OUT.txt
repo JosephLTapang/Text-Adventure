@@ -1,0 +1,152 @@
+Game 1 with good ending:
+
+CL-USER(1): :cl tapang6.lisp
+;;; Compiling file tapang6.lisp
+;;; Writing fasl file tapang6.fasl
+Warning: No IN-PACKAGE form seen in /home02/21/tapang/tapang6.lisp.
+         (Allegro Presto will be ineffective when loading a file having
+         no IN-PACKAGE form.)
+;;; Fasl write complete
+; Fast loading /home02/21/tapang/tapang6.fasl
+CL-USER(2): (play-hergwerts-golem-galumph)
+look
+You see the demolished remains of a door and above it a rickety sign
+ labelled hergwerts magicians department. Looking closer you see a note
+ from ferderx about the successful delivery of one golem murderizer.
+ there is a door going north from here.walk north
+
+You are in the main hall of hergwerts magicians department. A giant
+ staircase looms before you. The staircase looks as if something heavy
+ was dragged up its steps. There is a staircase going north from here.
+ there is a door going west from here. There is a door going east from
+ here. There is a door going south from here.walk west
+
+You are in the remains of the library of scrolls. Most are destroyed
+ but there may be some still worth using. There is a door going east
+ from here. You see a digitus-iii-scroll on the floor. You see a
+ teleport-scroll on the floor. You see a wall-of-text-scroll on the
+ floor.pickup teleport-scroll
+
+You are now carrying the teleport-scrollwalk east
+
+You are in the main hall of hergwerts magicians department. A giant
+ staircase looms before you. The staircase looks as if something heavy
+ was dragged up its steps. There is a staircase going north from here.
+ there is a door going west from here. There is a door going east from
+ here. There is a door going south from here.walk east
+
+You are in a room that smells like science but looks like a blast
+ zone. The floor is littered with glass and wood shards but you can
+ still see a large glyph on the floor. A sign next to it reads..Magical
+ combine items glyph..But only really combines three specific items.
+ there is a door going west from here. You see a h2o-potion on the
+ floor. You see a o2-potion on the floor. You see a gas-potion on the
+ floor. You see a glass-vial on the floor. You see a volatile-recipe on
+ the floor.pickup o2-potion
+
+You are now carrying the o2-potionpickup gas-potion
+
+You are now carrying the gas-potionpickup volatile-recipe
+
+You are now carrying the volatile-recipepickup glass-vial
+
+You are now carrying the glass-vialinventory
+
+Items- teleport-scroll o2-potion gas-potion glass-vial volatile-recipecombine volatile-recipe glass-vial
+
+The glyph flashes under your feet as the contents of the glass vial
+     begin to bubble and froth. You pop the cover on and slip it in
+     your pocket like any other magician would.walk west
+
+You are in the main hall of hergwerts magicians department. A giant
+ staircase looms before you. The staircase looks as if something heavy
+ was dragged up its steps. There is a staircase going north from here.
+ there is a door going west from here. There is a door going east from
+ here. There is a door going south from here.walk north
+
+You are in a dark room that gives you a peculiar feeling of being
+ murderized. That feeling materializes into reality as what you once
+ thought was a column in the middle of the room begins to move. You
+ vaguely remember the demolished door and bowed steps of the staircase.
+ you are jolted from your moment of thought as a gate slams closed
+ behind you. Turning around you realize that where the column was now
+ stands a golem. The furnace within its chest crackles with fire and
+ begins to burn brighter as it preps to run its clobber you algorithm.
+ if you have a glass-vial full volatile fluid and a teleport-scroll now
+ would be a good time to activate it.activate teleport-scroll glass-vial
+
+At the end of your frantic recital of the teleport-scroll you see the
+ glass vial from your pocket fling itself out of your pocket and
+ towards the golem. The golem shields its chest but the vial blinks out
+ of existence. Both you and the golem stand around in confusion until
+ you notice the vial managed to plant itself into the furnace of the
+ golem. At the exact moment you see this there is a bright flash of
+ light followed by the sound of metal and rock twisting and collapsing
+ to the floor. The golem is no more and you have to make a call to
+ ferderx. The end.
+ 
+ Game 2 bad ending:
+ 
+ CL-USER(2): (play-hergwerts-golem-galumph)
+look
+You see the demolished remains of a door and above it a rickety sign
+ labelled hergwerts magicians department. Looking closer you see a note
+ from ferderx about the successful delivery of one golem murderizer.
+ there is a door going north from here.walk north
+
+You are in the main hall of hergwerts magicians department. A giant
+ staircase looms before you. The staircase looks as if something heavy
+ was dragged up its steps. There is a staircase going north from here.
+ there is a door going west from here. There is a door going east from
+ here. There is a door going south from here.walk west
+
+You are in the remains of the library of scrolls. Most are destroyed
+ but there may be some still worth using. There is a door going east
+ from here. You see a digitus-iii-scroll on the floor. You see a
+ teleport-scroll on the floor. You see a wall-of-text-scroll on the
+ floor.pickup teleport-scroll
+
+You are now carrying the teleport-scrollwalk east
+
+You are in the main hall of hergwerts magicians department. A giant
+ staircase looms before you. The staircase looks as if something heavy
+ was dragged up its steps. There is a staircase going north from here.
+ there is a door going west from here. There is a door going east from
+ here. There is a door going south from here.walk east
+
+You are in a room that smells like science but looks like a blast
+ zone. The floor is littered with glass and wood shards but you can
+ still see a large glyph on the floor. A sign next to it reads..Magical
+ combine items glyph..But only really combines three specific items.
+ there is a door going west from here. You see a h2o-potion on the
+ floor. You see a o2-potion on the floor. You see a gas-potion on the
+ floor. You see a glass-vial on the floor. You see a volatile-recipe on
+ the floor.pickup glass-vial
+
+You are now carrying the glass-vialwalk east
+
+You cannot go that way.walk west
+
+You are in the main hall of hergwerts magicians department. A giant
+ staircase looms before you. The staircase looks as if something heavy
+ was dragged up its steps. There is a staircase going north from here.
+ there is a door going west from here. There is a door going east from
+ here. There is a door going south from here.walk north
+
+You are in a dark room that gives you a peculiar feeling of being
+ murderized. That feeling materializes into reality as what you once
+ thought was a column in the middle of the room begins to move. You
+ vaguely remember the demolished door and bowed steps of the staircase.
+ you are jolted from your moment of thought as a gate slams closed
+ behind you. Turning around you realize that where the column was now
+ stands a golem. The furnace within its chest crackles with fire and
+ begins to burn brighter as it preps to run its clobber you algorithm.
+ if you have a glass-vial full volatile fluid and a teleport-scroll now
+ would be a good time to activate it.pickup golem
+
+You try to pickup the golem but it picks you up instead...To death.
+
+activate teleport-scroll glass-vial
+
+You pat all your pockets but all you find is and empty glass-vial and
+ regret.
